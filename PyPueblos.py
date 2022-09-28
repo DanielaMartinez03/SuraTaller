@@ -3,4 +3,4 @@ import pandas as pd
 
 tablasiembras = pd.read_csv('./BD Siembra/Siembras.csv')
 
-#print(tablasiembras)
+print(tablasiembras)
