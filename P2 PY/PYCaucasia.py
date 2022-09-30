@@ -10,3 +10,5 @@ archivoHectareasMed=HectareasCaucasia.to_html()
 archivotexto1=open('HectareasMed.html', "w",encoding="utf-8")
 archivotexto1.write(HectareasMed)
 archivotexto1.close()
+
+#Falta mostrar las hectareas
