@@ -4,7 +4,7 @@ import pandas as pd
 tablasiembras = pd.read_csv('./BD Siembra/Siembras.csv')
 
 ArbolesMed = tablasiembras[(tablasiembras["Ciudad"]=="Medellín")&(tablasiembras["Arboles"])]
-ArbolesMed = ArbolesMed.sort_values(by="Arboles") ##fALTA ORGANIZARLOS DE MAYOR A MENOR
+ArbolesMed = ArbolesMed.sort_values(by = 'Arboles',ascending= False) 
 print(ArbolesMed)
 
 archivoArbolesMed=ArbolesMed.to_html()
